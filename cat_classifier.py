@@ -33,6 +33,8 @@ class Predict:
 
 if __name__=='__main__':
 
+    st.title('Cat Breed Classifier (Bengal, Maine Coon and Siamese)')
+    
     file_name='cat.pkl'
 
     predictor = Predict(file_name)
